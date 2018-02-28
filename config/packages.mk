@@ -16,7 +16,8 @@
 # Themes
 PRODUCT_PACKAGES += \
     PixelTheme \
-    Stock
+    Stock \
+    SaisBlack
 
 # libfuse
 PRODUCT_PACKAGES += \

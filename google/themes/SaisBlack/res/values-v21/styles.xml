@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DeviceDefault.QuickSettings" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:colorControlNormal">#ffffffff</item>
+        <item name="android:colorPrimary">@android:color/somc_color_radiobutton_ripple_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/sliding_tab_text_color_active</item>
+        <item name="android:colorAccent">@android:color/timepicker_default_ampm_selected_background_color_material</item>
+        <item name="android:backgroundTint">@android:color/somc_color_radiobutton_ripple_dark</item>
+    </style>
+    <style name="Theme.DeviceDefault.Resolver" parent="@android:style/Theme.Material">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:backgroundTint">@android:color/somc_color_radiobutton_ripple_dark</item>
+    </style>
+    <style name="Theme.DeviceDefault.QuickSettings.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog">
+        <item name="android:colorPrimary">@android:color/somc_color_radiobutton_ripple_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/keyguard_text_color_normal</item>
+        <item name="android:colorAccent">@android:color/timepicker_default_ampm_selected_background_color_material</item>
+    </style>
+    <style name="Theme.DeviceDefault.Light.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
+        <item name="android:windowBackground">@android:color/keyguard_text_color_decline</item>
+        <item name="android:colorPrimary">@android:color/somc_color_radiobutton_ripple_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/somc_color_radiobutton_ripple_dark</item>
+        <item name="android:colorAccent">@android:color/timepicker_default_ampm_selected_background_color_material</item>
+    </style>
+    <style name="Theme.Material.Settings.BaseDialog" parent="@android:style/WindowTitle.Holo">
+        <item name="android:colorPrimary">@android:color/somc_color_radiobutton_ripple_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/somc_color_component_ripple_light</item>
+        <item name="android:colorAccent">@android:color/timepicker_default_ampm_selected_background_color_material</item>
+    </style>
+    <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="@android:style/DialogWindowTitle.Holo.Light">
+        <item name="android:colorPrimary">@android:color/somc_color_radiobutton_ripple_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/somc_color_component_ripple_light</item>
+        <item name="android:colorAccent">@android:color/timepicker_default_ampm_selected_background_color_material</item>
+    </style>
+    <style name="Theme.Material.Settings.DialogWhenLarge" parent="@android:style/Theme.Material.DialogWhenLarge">
+        <item name="android:colorPrimary">@android:color/somc_color_radiobutton_ripple_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/somc_color_component_ripple_light</item>
+        <item name="android:colorAccent">@android:color/timepicker_default_ampm_selected_background_color_material</item>
+    </style>
+    <style name="Theme.Material.Settings.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Material.DialogWhenLarge.NoActionBar">
+        <item name="android:colorPrimary">@android:color/somc_color_radiobutton_ripple_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/somc_color_component_ripple_light</item>
+        <item name="android:colorAccent">@android:color/timepicker_default_ampm_selected_background_color_material</item>
+    </style>
+    <style name="Theme.Material.Settings.Dialog.Presentation" parent="@android:style/Theme.Material.Dialog.Presentation">
+        <item name="android:colorPrimary">@android:color/somc_color_radiobutton_ripple_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/somc_color_component_ripple_light</item>
+        <item name="android:colorAccent">@android:color/timepicker_default_ampm_selected_background_color_material</item>
+    </style>
+    <style name="Theme.Material.Settings.SearchBar" parent="@android:style/TextAppearance.Leanback.FormWizard.Large">
+        <item name="android:colorPrimary">@android:color/somc_color_radiobutton_ripple_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/somc_color_component_ripple_light</item>
+        <item name="android:colorAccent">@android:color/timepicker_default_ampm_selected_background_color_material</item>
+    </style>
+    <style name="Theme.Material.Settings.CompactMenu" parent="@android:style/DialogWindowTitle.Holo">
+        <item name="android:colorPrimary">@android:color/somc_color_radiobutton_ripple_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/somc_color_component_ripple_light</item>
+        <item name="android:colorAccent">@android:color/timepicker_default_ampm_selected_background_color_material</item>
+    </style>
+    <style name="Theme.DeviceDefault.Light.DarkActionBar" parent="@android:style/Theme.Material">
+        <item name="android:colorPrimary">@android:color/somc_color_radiobutton_ripple_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/somc_color_component_ripple_light</item>
+        <item name="android:colorAccent">@android:color/link_text_dark</item>
+    </style>
+    <style name="Theme.Material.Light.DarkActionBar" parent="@android:style/Theme.Material">
+        <item name="android:actionBarWidgetTheme">@null</item>
+        <item name="android:actionBarTheme">@android:style/ThemeOverlay.Material.Dark.ActionBar</item>
+        <item name="android:colorPrimary">@android:color/somc_color_radiobutton_ripple_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/somc_color_component_ripple_light</item>
+        <item name="android:popupTheme">@android:style/ThemeOverlay.Material</item>
+    </style>
+    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Material">
+        <item name="android:textColorPrimaryInverse">@android:color/keyguard_text_color_decline</item>
+        <item name="android:colorControlNormal">@android:color/timepicker_default_ampm_selected_background_color_material</item>
+        <item name="android:actionBarTheme">@android:style/PreferencePanel.Material.Dialog</item>
+        <item name="android:colorPrimary">@android:color/somc_color_radiobutton_ripple_dark</item>
+        <item name="android:colorPrimaryDark">@android:color/keyguard_text_color_normal</item>
+        <item name="android:colorAccent">@android:color/timepicker_default_ampm_selected_background_color_material</item>
+        <item name="android:navigationBarColor">@android:color/somc_color_radiobutton_ripple_dark</item>
+        <item name="android:colorEdgeEffect">#ffffffff</item>
+    </style>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material_deep_teal_500">#fff00202</color>
+    <color name="system_notification_accent_color">#fff00202</color>
+    <color name="material_deep_teal_200">#fff00202</color>
+    <color name="background_material_dark">#ff000000</color>
+    <color name="primary_material_dark">#ff000000</color>
+    <color name="background_floating_material_dark">#ff000000</color>
+    <color name="bright_foreground_light_disabled">#81000000</color>
+    <color name="background_holo_dark">#ff000000</color>
+    <color name="user_icon_8">#ffffffff</color>
+    <color name="notification_action_list">@android:color/somc_color_radiobutton_ripple_dark</color>
+    <color name="notification_primary_text_color_light">#ffffffff</color>
+    <color name="notification_secondary_text_color_light">#ffb2b2b2</color>
+</resources>
