@@ -12,10 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+LOCAL_PATH := $(call my-dir)
+
 # vendor path
 VENDOR_RISEOS_PATH := vendor/riseos
 
 # includes
-include $(VENDOR_RISEOS_PATH)/config/common.mk
-include $(VENDOR_RISEOS_PATH)/config/packages.mk
-include $(VENDOR_RISEOS_PATH)/config/version.mk
+include $(call first-makefiles-under,$(LOCAL_PATH))
+$(call inherit-product, $(VENDOR_RISEOS_PATH)/config/common.mk)
+$(call inherit-product, $(VENDOR_RISEOS_PATH)/config/packages.mk)
+$(call inherit-product, $(VENDOR_RISEOS_PATH)/config/version.mk)
